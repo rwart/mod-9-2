@@ -7,7 +7,7 @@ function addUniques(arr, item) {
   return arr;
 }
 
-function Main() {
+function main() {
   'use strict';
   var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
   var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
@@ -31,4 +31,4 @@ function Main() {
   console.log('function: Add ' + newName + ' : ' + allNamesNew.join(', '));
 }
 
-Main();
+main();
